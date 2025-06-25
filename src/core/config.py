@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     """配置管理类"""
     
     # DeepSeek配置
-    deepseek_api_key: str = os.getenv("DEEPSEEK_API_KEY", "sk-koddawxpcotgxzdpcoxbzkfjekqaeycfehkbjeuilbxqcwuz")
+    deepseek_api_key: str = os.getenv("DEEPSEEK_API_KEY", "sk-koddawxpcotgxzdpcoxbzkfjekqaeycfehkbjeuilbxq")
     deepseek_base_url: str = os.getenv("DEEPSEEK_BASE_URL", "https://api.siliconflow.cn/v1")
     deepseek_model: str = os.getenv("DEEPSEEK_MODEL", "deepseek-ai/DeepSeek-V3")
     
